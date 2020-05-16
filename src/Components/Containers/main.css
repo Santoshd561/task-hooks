@@ -1,0 +1,178 @@
+.App {
+  text-align: left;
+  width: 1150px;
+  height: 665px;
+  background-color: rgb(71, 78, 129);
+}
+.main-header {
+  background-color: black;
+  height: 60;
+  display: flex;
+  flex-direction: row;
+}
+.main-header-title {
+  line-height: 64px;
+  padding-left: 30px;
+  color: white;
+  font-size: medium;
+}
+.main-header-right {
+  line-height: 64px;
+  padding-left: 1300px;
+  color: white;
+  font-size: small;
+}
+.main-header-right1 {
+  line-height: 64px;
+  padding-left: 20px;
+  color: white;
+  font-size: small;
+}
+.inf {
+  display: flex;
+  flex-direction: row;
+}
+.Login {
+  width: 390px;
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  color: white;
+}
+.App-header1 {
+  background-color: rgb(71, 78, 129);
+  height: 150px;
+  padding: 10px;
+  color: white;
+}
+.App-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  margin-left: 80px;
+  margin-top: 120px;
+}
+.sub-title {
+  font-size: 1.4em;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+.link {
+  color: "#5F96F5";
+  margin: 8px;
+}
+.link2 {
+  color: "#5F96F5";
+  margin-left: 150px;
+  margin-top: -25px;
+}
+.link3 {
+  color: "#5F96F5";
+  margin-top: 140px;
+  margin-left: -38px;
+}
+.Login-title {
+  font-size: 1.8em;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.inputbox {
+  width: 300px;
+  border: 1;
+}
+.box {
+  margin-left: 40px;
+  margin-top: 60px;
+}
+.formlabel {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.checkbox {
+  margin-left: -40px;
+  margin-top: 14px;
+}
+.textinput {
+  width: 300px;
+  height: 30px;
+  background-color: #e1e7e1;
+  border: 2px solid transparent;
+  transition: background-color 0.25s, border-color 0.25s;
+}
+.button {
+  width: 300px;
+  height: 10px;
+}
+.button1 {
+  background-color: white;
+  color: #0662fe;
+}
+.App-intro {
+  font-size: 2em;
+  color: white;
+  margin-left: 80px;
+  margin-top: 5px;
+}
+.Login-intro {
+  font-size: 1.2em;
+  color: rgb(46, 45, 45);
+  margin-left: 40px;
+  margin-top: 5px;
+}
+.Login-intro1 {
+  font-size: 0.8em;
+  color: rgb(46, 45, 45);
+  margin-left: 40px;
+  margin-top: 200px;
+}
+.bx--inline-notification__close-button .bx--inline-notification__close-icon {
+  fill: #111111;
+}
+.notification {
+  background-color: #fff2f2;
+  width: 330px;
+  color: black;
+  font-size: smaller;
+  border-left: 3px solid #e86b72;
+  border: 1px solid #e86b72;
+}
+.notification-green {
+  background-color: #fff2f2;
+  width: 330px;
+  color: black;
+  font-size: smaller;
+  border-left: 3px solid #33c23a;
+  border: 1px solid #33c23a;
+}
+.sub-intro {
+  font-size: 1.2em;
+  color: white;
+  font-family: sans-serif;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App__demo {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.App__demo-title {
+  margin-bottom: 1rem;
+}
